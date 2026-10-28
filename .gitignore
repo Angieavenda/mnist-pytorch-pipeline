@@ -216,5 +216,12 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+
+
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Datos de MNIST (se descargan automáticamente)
+data/*
+!data/README.md
